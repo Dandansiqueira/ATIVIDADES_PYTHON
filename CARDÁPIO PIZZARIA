@@ -1,0 +1,143 @@
+print (" PIZZARIA ")
+print ("_____CARDÁPIO - PREÇOS_____")
+print (" ")
+print ("******PIZZAS - SABORES******")
+print (" FRANGO C/ CATUPIRY, CALABRESA, QUATRO QUEIJOS")
+print ("")
+print ("******PIZZAS - TAMANHOS******")
+print ("PIZZA PEQUENA - R$ 25,00")
+print ("PIZZA MÉDIA   - R$ 35,00")
+print ("PIZZA GRANDE  - R$ 45,00")
+print ("******REFRIGERANTES******")
+print ("COCA COLA - R$ 7,00")
+print ("GUARANÁ   - R$ 6,50")
+print ("FANTA UVA - R$ 6,00")
+print ("___________________________")
+print (" ")
+print ("_____FAÇA SEU PEDIDO DA PIZZA_____")
+print ("******SABORES:******")
+print ("1 - FRANGO C/ CATUPIRY")
+print ("2 - CALABRESA")
+print ("3 - QUATRO QUEIJOS")
+print ("___________________________")
+print ("******PIZZA - TAMANHO:******")
+print ("1 - PEQUENA")
+print ("2 - MÉDIA")
+print ("3 - GRANDE")
+print ("___________________________")
+print ("******REFRIGERANTE:******")
+print ("1 - COCA COLA")
+print ("2 - GUARANÁ")
+print ("3 - FANTA UVA")
+print ("___________________________")
+
+pedpz = int(input())
+
+print ("DIGITE O TAMANHO DA PIZZA:")
+print ("P - PEQUENA")
+print ("M - MÉDIA")
+print ("G - GRANDE")
+tampz = input().upper()
+
+print ("FAÇA SEU PEDIDO DO SABOR DA PIZZA:")
+print ("1 - FRANGO C/ CARUPIRY")
+print ("2 - CALABRESA")
+print ("3 - QUATRO QUEIJOS")
+sabor = int(input())
+
+print ("FAÇA O SEU PEDIDO PARA O REFRIGERANTE:")
+print ("1 - COCA COLA")
+print ("2 - GUARANÁ")
+print ("3 FANTA UVA")
+pedrefri = int(input())
+
+if (pedpz == 1) and (tampz == "P") and (sabor == 1) and (pedrefri == 1):
+    precopagar = 25 + 7
+    pedidos = "PIZZA PEQUENA - FRANGO C/ CATUPIRY - COCA COLA"
+elif (pedpz == 1) and (tampz == "P") and (sabor == 1) and (pedrefri == 2):
+    precopagar = 25 + 6.50
+    pedidos = "PIZZA PEQUENA - FRANGO C/ CATUPIRY - GUARANÁ"
+elif (pedpz == 1) and (tampz == "P") and (sabor == 1) and (pedrefri == 3):
+    precopagar = 25 + 6
+    pedidos = "PIZZA PEQUENA - FRANGO C/ CATUPIRY - FANTA UVA"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 1) and (pedrefri == 1):
+    precopagar = 35 + 7
+    pedidos = "PIZZA MÉDIA - FRANGO C/ CATUPIRY - COCA COLA"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 1) and (pedrefri == 2):
+    precopagar = 35 + 6.50
+    pedidos = "PIZZA MÉDIA - FRANGO C/ CATUPIRY - GUARANÁ"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 1) and (pedrefri == 3):
+    precopagar = 35 + 6
+    pedidos = "PIZZA MÉDIA - FRANGO C/ CATUPIRY - FANTA UVA"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 1) and (pedrefri == 1):
+    precopagar = 45 + 7
+    pedidos = "PIZZA GRANDE - FRANGO C/ CATUPIRY - COCA COLA"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 1) and (pedrefri == 2):
+    precopagar = 45 + 6.50
+    pedidos = "PIZZA GRANDE - FRANGO C/ CATUPIRY - GUARANÁ"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 1) and (pedrefri == 3):
+    precopagar = 45 + 6
+    pedidos = "PIZZA GRANDE - FRANGO C/ CATUPIRY - FANTA UVA"
+#CALABRESA
+elif (pedpz == 1) and (tampz == "P") and (sabor == 2) and (pedrefri == 1):
+    precopagar = 25 + 7
+    pedidos = "PIZZA PEQUENA - CALABRESA - COCA COLA"
+elif (pedpz == 1) and (tampz == "P") and (sabor == 2) and (pedrefri == 2):
+    precopagar = 25 + 6.50
+    pedidos = "PIZZA PEQUENA - CALABRESA - GUARANÁ"
+elif (pedpz == 1) and (tampz == "P") and (sabor == 2) and (pedrefri == 3):
+    precopagar = 25 + 6
+    pedidos = "PIZZA PEQUENA - CALABRESA - FANTA UVA"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 2) and (pedrefri == 1):
+    precopagar = 35 + 7
+    pedidos = "PIZZA MÉDIA - CALABRESA - COCA COLA"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 2) and (pedrefri == 2):
+    precopagar = 35 + 6.50
+    pedidos = "PIZZA MÉDIA - CALABRESA - GUARANÁ"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 2) and (pedrefri == 3):
+    precopagar = 35 + 6
+    pedidos = "PIZZA MÉDIA - CALABRESA - FANTA UVA"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 2) and    (pedrefri == 1):
+    precopagar = 45 + 7
+    pedidos = "PIZZA GRANDE - CALABRESA - COCA COLA"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 2) and (pedrefri == 2):
+    precopagar = 45 + 6.50
+    pedidos = "PIZZA GRANDE - CALABRESA - GUARANÁ"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 2) and (pedrefri == 3):
+    precopagar = 45 + 6
+    pedidos = "PIZZA GRANDE - CALABRESA - FANTA UVA"
+#QUATRO QUEIJOS
+elif (pedpz == 1) and (tampz == "P") and (sabor == 2) and (pedrefri == 1):
+    precopagar = 25 + 7
+    pedidos = "PIZZA PEQUENA - QUATRO QUEIJOS - COCA COLA"
+elif (pedpz == 1) and (tampz == "P") and (sabor == 2) and (pedrefri == 2):
+    precopagar = 25 + 6.50
+    pedidos = "PIZZA PEQUENA - QUATRO QUEIJOS - GUARANÁ"
+elif (pedpz == 1) and (tampz == "P") and (sabor == 2) and (pedrefri == 3):
+    precopagar = 25 + 6
+    pedidos = "PIZZA PEQUENA - QUATRO QUEIJOS - FANTA UVA"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 2) and (pedrefri == 1):
+    precopagar = 35 + 7
+    pedidos = "PIZZA MÉDIA - QUATRO QUEIJOS - COCA COLA"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 2) and (pedrefri == 2):
+    precopagar = 35 + 6.50
+    pedidos = "PIZZA MÉDIA - QUATRO QUEIJOS - GUARANÁ"
+elif (pedpz == 1) and (tampz == "M") and (sabor == 2) and (pedrefri == 3):
+    precopagar = 35 + 6
+    pedidos = "PIZZA MÉDIA - QUATRO QUEIJOS - FANTA UVA"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 2) and (pedrefri == 1):
+    precopagar = 45 + 7
+    pedidos = "PIZZA GRANDE - QUATRO QUEIJOS - COCA COLA"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 2) and (pedrefri == 2):
+    precopagar = 45 + 6.50
+    pedidos = "PIZZA GRANDE - QUATRO QUEIJOS - GUARANÁ"
+elif (pedpz == 1) and (tampz == "G") and (sabor == 2) and (pedrefri == 3):
+    precopagar = 45 + 6
+    pedidos = "PIZZA GRANDE - QUATRO QUEIJOS - FANTA UVA"
+
+print ("_____________________________")
+print (f"O TOTAL A PAGAR É R${precopagar:.2f}")
+print ("_____________________________")
+print (f"O PEDIDO É: {pedidos}")
+print ("_____________________________")
+print ("OBRIGADO PELA PREFERÊNCIA!!!")
